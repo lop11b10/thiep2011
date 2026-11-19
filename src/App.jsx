@@ -201,13 +201,6 @@ export default function App() {
 
       {/* Stage 1 & 2 Overlays */}
       <main className="ui-overlay">
-        {stage === 'gathering' && (
-          <div className="gathering-status">
-            <span className="gathering-dot" />
-            <span>Những hạt ký ức đang hội tụ thành lá thư 20/11...</span>
-          </div>
-        )}
-
         {stage === 'ready' && (
           <div className="envelope-prompt">
             <div className="envelope-prompt__row">
